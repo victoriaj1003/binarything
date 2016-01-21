@@ -1,0 +1,13 @@
+
+
+1.  must iterate through array of exponents
+	how?
+
+2.  must iterate through the entire function until the user's input number = 0
+
+
+non-hard-coded array...
+
+3.  if input number is bigger than the power of 	2, must test next higher power of 2 so...
+	Math.pow(2, i+1)
+
