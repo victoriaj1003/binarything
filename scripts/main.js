@@ -28,6 +28,10 @@
 			console.log("subtract is working");
 			console.log("1");
 			console.log(x);
+			// console.log(document.getElementById("place-"))
+			for (var b = 1; b < 11; b++) {
+				document.getElementById("place-" + b).innerHTML = "1";
+			}
 		// return 
 		// 	console.log("return is working");
 		// console.log("1");
