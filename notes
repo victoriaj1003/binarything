@@ -11,3 +11,11 @@ non-hard-coded array...
 3.  if input number is bigger than the power of 	2, must test next higher power of 2 so...
 	Math.pow(2, i+1)
 
+use algorithm to use more exponents of 2
+
+
+750
+
+input >= pow(2, x)
+
+git bisect...  divide problem in half until you get to the answer

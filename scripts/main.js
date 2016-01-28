@@ -20,7 +20,7 @@
  		// var subtractThing = (powerOf - x);
 
  		var x = prompt("pick a number between 0 and 500");
-
+// rename function to a name that makes more sense as to what it is doing, such as convertToBinary
 		function checkInput(i) {
 			if (x >= powerOf[i]) {
 			console.log("if is working");
@@ -29,9 +29,10 @@
 			console.log("1");
 			console.log(x);
 			// console.log(document.getElementById("place-"))
-			for (var b = 1; b < 11; b++) {
-				document.getElementById("place-" + b).innerHTML = "1";
-			}
+			// for (var b = 1; b < 11; b++) {
+
+				document.getElementById("place-" + i).innerHTML = "1";
+			// }
 		// return 
 		// 	console.log("return is working");
 		// console.log("1");
@@ -39,7 +40,6 @@
 				console.log("wat- 0");
 			}
 		}
-
 
 
 
