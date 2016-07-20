@@ -19,3 +19,9 @@ use algorithm to use more exponents of 2
 input >= pow(2, x)
 
 git bisect...  divide problem in half until you get to the answer
+
+
+other stuff..
+unit tests
+fixtures in js testing
+mocking libraries
