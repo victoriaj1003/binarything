@@ -4,11 +4,6 @@
 
 // to find numbers use Math.pow(2, 2) which will return 4.  since binary, use 2 to the power of something.
 
-// on click, submit input field...
-
-// function submit() {
-// 	document.getElementByID("button").submit();
-// }
 
 // hard code the array of exponents of 2
 	var powerOf = [512, 256, 128, 64, 32, 16, 8, 4, 2, 1];
@@ -19,32 +14,48 @@
 
  		// var subtractThing = (powerOf - x);
 
- 		var x = prompt("pick a number between 0 and 500");
-// rename function to a name that makes more sense as to what it is doing, such as convertToBinary
-		function checkInput(i) {
-			if (x >= powerOf[i]) {
-			console.log("if is working");
-			x = x - powerOf[i];
-			console.log("subtract is working");
-			console.log("1");
-			console.log(x);
-			// console.log(document.getElementById("place-"))
-			// for (var b = 1; b < 11; b++) {
-
-				document.getElementById("place-" + i).innerHTML = "1";
-			// }
-		// return 
-		// 	console.log("return is working");
-		// console.log("1");
-			} else {
-				console.log("wat- 0");
-			}
-		}
+ 	// 	var x = prompt("please enter a number between 0 and 500");
+		// 	if (x > 500 || x < 0) {
+		// 		console.log("we need to reprompt the user for input");
+		// 	} else {
+		function checkInput() {
+		    var x = document.getElementById('fred').value
+		    if (x < 0 || x > 500) {
+		        console.log("NOT VALID");
+						// checkInput();
+						document.getElementById("alert").innerHTML = "Please enter a number between 0 and 500";
+						document.getElementById("fred").value = " "
 
 
+		    } else {
+					console.log("value is between 0 and 500");
+		        //some other function
+						document.getElementById("alert").innerHTML = " ";
+
+					function mutateToBinary(i) {
+						document.getElementById("place-" + i).innerHTML = "0";
+						if (x >= powerOf[i]) {
+						console.log("if is working");
+						x = x - powerOf[i];
+						console.log("subtract is working");
+						console.log("1");
+						console.log(x);
+						// console.log(document.getElementById("place-"))
+						// for (var b = 1; b < 11; b++) {
+
+							document.getElementById("place-" + i).innerHTML = "1";
+						// }
+					// return
+					// 	console.log("return is working");
+					// console.log("1");
+						} else {
+							console.log("wat- 0");
+						}
+					}
 
  		for (i=0; i<powerOf.length; i++) {
-			checkInput(i);
-		} 
-
-
+			mutateToBinary(i);
+		}
+	}
+}
+// };

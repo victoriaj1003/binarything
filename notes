@@ -25,3 +25,7 @@ other stuff..
 unit tests
 fixtures in js testing
 mocking libraries
+
+
+// ******* document.getElementById("fred").reset(); doesn't work.  form reloads page, div it's not a method
+// ******* if number is between 0 - 500, it runs, but you can't run it again by typing over input. if number is above or below the range, you can enter a new number and it runs, but if that number is inside range, you can't run again without reloading page....so clear form must reload page, but only if the number is inside the range?
