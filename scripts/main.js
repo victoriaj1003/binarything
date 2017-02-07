@@ -26,7 +26,9 @@
 		    if (reg.test(x) || x < 0 || x > 500) {
 		        console.log("NOT VALID");
 						// checkInput();
-						// document.getElementById("place-" + i).innerHTML = "0";
+						for (i=0; i<powerOf.length; i++)
+
+						document.getElementById("place-" + i).innerHTML = "0";
 						document.getElementById("alert").innerHTML = "Please enter a number between 0 and 500";
 						document.getElementById("fred").value = ""
 
@@ -36,7 +38,9 @@
 		        //some other function
 						document.getElementById("alert").innerHTML = " ";
 
-					function mutateToBinary(i) {
+					// function mutateToBinary(i) {
+					for (i=0; i<powerOf.length; i++) {
+
 						document.getElementById("place-" + i).innerHTML = "0";
 						if (x >= powerOf[i]) {
 						console.log("if is working");
@@ -55,9 +59,9 @@
 						}
 					}
 
- 		for (i=0; i<powerOf.length; i++) {
-			mutateToBinary(i);
-		}
+ 	// 	for (i=0; i<powerOf.length; i++) {
+		// 	mutateToBinary(i);
+		// }
 	}
 }
 // };
