@@ -20,11 +20,15 @@
 		// 	} else {
 		function checkInput() {
 		    var x = document.getElementById('fred').value
-		    if (x < 0 || x > 500) {
+				console.log(typeof x);
+				console.log(x);
+				var reg = new RegExp('[^0-9]+');
+		    if (reg.test(x) || x < 0 || x > 500) {
 		        console.log("NOT VALID");
 						// checkInput();
+						// document.getElementById("place-" + i).innerHTML = "0";
 						document.getElementById("alert").innerHTML = "Please enter a number between 0 and 500";
-						document.getElementById("fred").value = " "
+						document.getElementById("fred").value = ""
 
 
 		    } else {
@@ -40,8 +44,6 @@
 						console.log("subtract is working");
 						console.log("1");
 						console.log(x);
-						// console.log(document.getElementById("place-"))
-						// for (var b = 1; b < 11; b++) {
 
 							document.getElementById("place-" + i).innerHTML = "1";
 						// }
