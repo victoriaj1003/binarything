@@ -11,32 +11,53 @@
 <body>
 <div id="wrapper">
 
-	<header> Welcome to Binary Blast! </header>
+	<header>
+		<p>Binary Blast!</p>
+	</header>
 
 	<div id="innerwrapper">
-		
+
 		<div id="whatis">
-			<p>What is binary?  It's blah blah blah blah.<p>
+			<p>
+				What is binary?
+			</p>
+			<p>
+				A binary code represents text, computer processor instructions, or other data using any two-symbol system, but often the binary number system's 0 and 1. The binary code assigns a pattern of binary digits (bits) to each character, instruction, etc. - <a href="https://en.wikipedia.org/wiki/Binary_code"> wikipedia </a>
+			</p>
+			<p>
+				All data in a computer system consists of binary information. 'Binary' means there are only 2 possible values: 0 and 1. Computer software translates between binary information and the information you actually work with on a computer such as decimal numbers, text, photos, sound, and video. Binary information is sometimes also referred to as machine language since it represents the most fundamental level of information stored in a computer system. - <a href="http://study.com/academy/lesson/binary-language-of-computers-definition-lesson-quiz.html#transcriptHeader">study.com</a>
+			</p>
+
+			<!-- <p>
+				Everything that goes on under the hood of a computer is done in binary - the language of 0s and 1s.
+			</p>
+			<p>
+				If we have only two numbers, it's very easy to represent them in the physical world using electricity. You can think of each binary digit as a switch or a light bulb that can be either on or off, where by convention 0 is thought of as "off" and 1 is "on". - <a href="https://study.cs50.net/binary">CS50</a>
+			<p> -->
+
 		</div>
 
-			<h2>Enter a number between 0 and 500</h2>
-				<div id="theform">
-					<input id="fred">
-					<div id="button" onclick=(checkInput())> go! </div>
-				</div>
-				<div id="alert">
-					<p> </p>
-				</div>
 
-		<div>
+		<div id="theform">
+			<h3>Enter a number between 0 and 500</h3>
+			<input id="inputspace">
+			<div id="button" onclick=(checkInput())> go! </div>
+
+
+			<div id="alert">
+						<p> </p>
+			</div>
+		</div>
 
 		<div id="outputwrapper">
-		<div id="output">
-			<div id="place-0"> 0 </div><div id="place-1"> 0 </div><div id="place-2"> 0 </div><div id="place-3"> 0 </div><div id="place-4"> 0 </div><div id="place-5"> 0 </div><div id="place-6"> 0 </div><div id="place-7"> 0 </div><div id="place-8"> 0 </div><div id="place-9"> 0 </div>
+			<div id="output">
+				<div id="place-0"> 0 </div><div id="place-1"> 0 </div><div id="place-2"> 0 </div><div id="place-3"> 0 </div><div id="place-4"> 0 </div><div id="place-5"> 0 </div><div id="place-6"> 0 </div><div id="place-7"> 0 </div><div id="place-8"> 0 </div><div id="place-9"> 0 </div>
+			</div>
 		</div>
+
+
 	</div>
-	</div>
-	</div>
+
 </div>
 
 	<script type="text/javascript" src="scripts/main.js"></script>

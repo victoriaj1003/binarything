@@ -19,7 +19,7 @@
 		// 		console.log("we need to reprompt the user for input");
 		// 	} else {
 		function checkInput() {
-		    var x = document.getElementById('fred').value
+		    var x = document.getElementById('inputspace').value
 				console.log(typeof x);
 				console.log(x);
 				var reg = new RegExp('[^0-9]+');
@@ -30,12 +30,13 @@
 
 						document.getElementById("place-" + i).innerHTML = "0";
 						document.getElementById("alert").innerHTML = "Please enter a number between 0 and 500";
-						document.getElementById("fred").value = ""
+						document.getElementById("inputspace").value = ""
 
 
 		    } else {
 					console.log("value is between 0 and 500");
-		        //some other function
+					document.getElementById("inputspace").value = ""
+
 						document.getElementById("alert").innerHTML = " ";
 
 					// function mutateToBinary(i) {
