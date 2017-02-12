@@ -1,49 +1,99 @@
-#wrapper {
-	font-family: "Roboto Slab", sans-serif;
+
+body {
+	margin: 0px;
 }
 
-#inputnumber {
-	width: 100px;
-	height: 50px;
-	border: 1px solid black;
-	margin: 10px;
+#wrapper {
+	font-family: "Roboto Slab", serif;
 }
 
 header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
-	height: 75px;
-	color: white;
-	font-size: 45px;
-	text-align: center;
-	background-color: lavender;
-	padding: 10px 0px;
+	/*height: 125px;*/
+	/*height: 4em;*/
+	height: auto;
+	/*font-size: 3em;*/
+	/*font-size: 300%;*/
+	/*text-align: center;*/
+	background-image: url("../images/binarybackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	/*padding: 10px, 0px;*/
+	/*margin: -10;*/
 }
 
-#whatis {
-	width: 100%;
-	height: 500px;
+header p {
+	font-size: 4em;
+	padding: 10px;
+	color: #1a738c;
+	color: #e0048c
 }
 
 #innerwrapper {
 	width: 100%;
+	/*height: 100%;*/
+	height: auto;
 	font-size: 1em;
-	margin: 5px;
+	/*margin: 0px, 10px;*/
+	/*background-color: yellow;*/
 }
 
-#fred {
+#whatis {
+	width: 100%;
+	height: auto;
+	/*background-color: purple;*/
+}
+#whatis p {
+	margin: 10px;
+	padding: 5px;
+	font-size: 1.17em;
+}
+
+#theform {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/*height: 200px;*/
+	/*height: auto;*/
+	/*border: 1px solid grey;*/
+	/*margin: 10px;*/
+	/*background-color: blue;*/
+	/*text-align: center;*/
+}
+
+#alert {
+	height: 40px;
+	color: red;
+	font-size: 1.25em;
+	padding: 10px;
+}
+
+#inputspace {
 	width: 300px;
 	height: 35px;
+	margin: 5px;
+	font-size: 1em;
 }
 
 #button {
 	width: 100px;
-	height: 35px;
-	color: magenta;
+	height: 25px;
+	color: white;
+	border-radius: 1em;
+	padding: .5em;
 	font-size: 1em;
 	background-color: grey;
-	/*text-align: center;*/
-	margin: .5em;
-	padding: auto, 0;
+	text-align: center;
+	margin: auto;
+}
+
+#button:hover {
+	color: #e0048c
 }
 
 #userInput {
@@ -55,25 +105,21 @@ header {
 	padding: 10px;
 }
 
-body {
-	margin: 0;
+#outputwrapper {
+	height: 210px;
+	/*background-color: green;*/
 }
 
-/*#outputwrapper{
-	width: 100%;
-	height: 500px;
-	background-color: red;
-}*/
-
 #output {
-	margin-top: 50px;
+	/*margin-top: 50px;*/
 	background: grey;
 	color: white;
 	font-family: "Robot-Slab", serif;
 	font-size: 45px;
 	border-radius: 1em;
 	padding: 1em;
-	position: absolute;
+	position: relative;
+	display: inline-block;
 	top: 50%;
 	left: 50%;
 	margin-right: -50%;
