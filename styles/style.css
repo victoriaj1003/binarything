@@ -46,6 +46,11 @@ header p {
 	height: auto;
 	/*background-color: purple;*/
 }
+#whatis h3 {
+	margin: 10px;
+	padding: 5px;
+	font-size: 1.5em;
+}
 #whatis p {
 	margin: 10px;
 	padding: 5px;
