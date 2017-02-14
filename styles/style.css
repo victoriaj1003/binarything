@@ -84,6 +84,7 @@ header p {
 	width: 300px;
 	height: 35px;
 	margin: 5px;
+	padding: 2px;
 	font-size: 1em;
 }
 
@@ -104,19 +105,17 @@ header p {
 }
 
 #userInput {
-	width: 250px;
+	width: 225x;
 	height: 50px;
 	border: 1px solid black;
 	text-align: center;
 	margin: 10px;
-	padding: 10px;
+	/*padding: 10px;*/
 }
 
 #outputwrapper {
 	height: 210px;
 	/*background-color: green;*/
-	margin-left: 10px;
-	margin-right: 10px;
 }
 
 #output {
