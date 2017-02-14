@@ -115,8 +115,9 @@ header p {
 #outputwrapper {
 	height: 210px;
 	/*background-color: green;*/
-	margin-left: 10px;
-	margin-right: 10px;
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
 }
 
 #output {
