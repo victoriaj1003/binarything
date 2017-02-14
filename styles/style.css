@@ -69,6 +69,8 @@ header p {
 	/*margin: 10px;*/
 	/*background-color: blue;*/
 	/*text-align: center;*/
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #alert {
@@ -113,6 +115,8 @@ header p {
 #outputwrapper {
 	height: 210px;
 	/*background-color: green;*/
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 #output {
