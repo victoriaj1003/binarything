@@ -57,6 +57,10 @@ header p {
 	/*background-color: blue;*/
 }
 
+#theform h3 {
+	margin: 20px;
+}
+
 #alert {
 	height: 40px;
 	color: red;
