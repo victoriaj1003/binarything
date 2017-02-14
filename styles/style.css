@@ -12,37 +12,23 @@ header {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	/*height: 125px;*/
-	/*height: 4em;*/
 	height: auto;
-	/*font-size: 3em;*/
-	/*font-size: 300%;*/
-	/*text-align: center;*/
 	background-image: url("../images/binarybackground.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	/*padding: 10px, 0px;*/
-	/*margin: -10;*/
 }
 
 header p {
-	font-size: 4em;
+	font-size: 3.75em;
 	/*padding: 5px;*/
 	/*color: #1a738c;*/
 	color: #e0048c
 }
 
 #innerwrapper {
-	/*display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;*/
 	width: 100%;
-	/*height: 100%;*/
 	height: auto;
 	font-size: 1em;
-	/*margin: 0px, 10px;*/
-	/*background-color: yellow;*/
 }
 
 #whatis {
@@ -51,12 +37,12 @@ header p {
 	/*background-color: purple;*/
 }
 #whatis h3 {
-	margin: 10px;
+	margin: 20px;
 	padding: 5px;
 	font-size: 1.5em;
 }
 #whatis p {
-	margin: 10px;
+	margin: 20px;
 	padding: 5px;
 	font-size: 1.17em;
 }
@@ -83,7 +69,7 @@ header p {
 }
 
 #inputspace {
-	width: 300px;
+	width: 275px;
 	height: 35px;
 	margin: 5px;
 	padding: 2px;
@@ -116,7 +102,7 @@ header p {
 }
 
 #outputwrapper {
-	height: 210px;
+	height: 200px;
 	/*background-color: green;*/
 }
 
