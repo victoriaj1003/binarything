@@ -1,6 +1,6 @@
 
 body {
-	margin: 0px;
+	margin: -10px;
 }
 
 #wrapper {
@@ -19,6 +19,7 @@ header {
 }
 
 header p {
+	text-align: center;
 	font-size: 3.75em;
 	/*padding: 5px;*/
 	/*color: #1a738c;*/
@@ -53,12 +54,7 @@ header p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/*height: 200px;*/
-	/*height: auto;*/
-	/*border: 1px solid grey;*/
-	/*margin: 10px;*/
 	/*background-color: blue;*/
-	/*text-align: center;*/
 }
 
 #alert {
@@ -66,12 +62,13 @@ header p {
 	color: red;
 	font-size: 1.25em;
 	padding: 10px;
+	text-align: center;
 }
 
 #inputspace {
 	width: 275px;
 	height: 35px;
-	margin: 5px;
+	margin-bottom: 5px;
 	padding: 2px;
 	font-size: 1em;
 }
@@ -92,17 +89,17 @@ header p {
 	color: #e0048c
 }
 
-#userInput {
+/*#userInput {
 	width: 225x;
 	height: 50px;
 	border: 1px solid black;
 	text-align: center;
 	margin: 10px;
-	/*padding: 10px;*/
-}
+}*/
 
 #outputwrapper {
-	height: 200px;
+	height: 150px;
+	width: auto;
 	/*background-color: green;*/
 }
 
