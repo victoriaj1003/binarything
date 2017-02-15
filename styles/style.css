@@ -81,6 +81,13 @@ header p {
 	margin: 5px 20px;
 }
 
+@media only screen and (max-device-width: 768px) {
+	#theform h3 {
+		font-size: 1em;
+		padding: 15px;
+	}
+}
+
 #alert {
 	height: 40px;
 	color: red;
