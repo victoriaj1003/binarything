@@ -27,8 +27,8 @@ header p {
 @media only screen and (max-device-width: 736px){
 	header p {
 		text-align: center;
-		font-size: 3em;
-			color: #e0048c;
+		font-size: 3.25em;
+		color: #e0048c;
 	}
 }
 
@@ -43,15 +43,29 @@ header p {
 	height: auto;
 	/*background-color: purple;*/
 }
-#whatis h3 {
+#whatis h2 {
 	margin: 20px;
-	padding: 5px;
+	padding: 15px;
 	font-size: 1.5em;
 }
 #whatis p {
 	margin: 20px;
-	padding: 5px;
+	padding: 15px;
 	font-size: 1.17em;
+}
+
+@media only screen and (max-device-width: 768px) {
+	#whatis h2 {
+		margin: 15px;
+		padding: 15px;
+		font-size: 1.5em;
+	}
+
+	#whatis p {
+		margin: 15px;
+		padding: 15px;
+		font-size: 1em;
+	}
 }
 
 #theform {
